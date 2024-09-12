@@ -83,14 +83,16 @@ img {
 }
 
 select {
-    width: 40%;
+    width: 50%;
     padding: 2px;
     margin-left: 5px;
+    text-decoration: none;
 }
 
 label {
     font-size: 16px;
     margin-right: 5px;
+    color: var(--clr-text-regular);
 }
 .event {
     position: absolute;
@@ -112,6 +114,7 @@ label {
 
 .color {
     margin-bottom: 1.25rem;
+    color: var(--clr-text-regular);
 }
 
 .circle {
