@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+--clr-background-body: #f5f5f5;
+--clr-background-product-card: #fff;
+--clr-background-button: #485fb9;
+--clr-text-heading: black;
+--clr-text-regular: #7e7e7e;
+}
+
+html {
+    font-family: "Quicksand";
+}
+
+body {
+    background-color: var(--clr-background-body);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.asics, .adidas, .new-balance {
+    background-color: var(--clr-background-product-card);
+    border-radius: 1.5rem;
+}
+
+.text-container {
+    padding: 1rem;
+}
+
+.box1, .box2, .box3 {
+    display: grid;
+    background-color: var(--clr-background-body);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-background-product-card);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+p {
+    color: var(--clr-text-regular);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--clr-background-product-card);
+    background-color: var(--clr-background-button);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
